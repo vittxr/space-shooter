@@ -1,0 +1,109 @@
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background-color: cornflowerblue;
+}
+
+#main-container {
+    background-color: black;
+    background-image: url(img/space.png);
+    height: 600px;
+    width: 600px;
+    z-index: 1;
+}
+
+.game-instructions {
+   position: relative;
+   color: white;
+   text-align: center;
+   top: 0px;
+}
+
+.start-button {
+    position: relative;
+    color: white;
+    top: 9rem;
+    left: 15rem;
+    cursor: pointer;
+}
+
+.player {
+    position: relative;
+    height: 60px;
+    width: 70px;
+    left: 20px;
+    top: 250px;
+}
+
+.laser {
+    position: relative;
+    width: 40px;
+    height: 30px;
+}
+
+.alien {
+    height: 60px;
+    width: 70px;
+    position: relative;
+}
+
+.alien-transition {
+    opacity: 1;
+    transition: opacity 1.5s ease-in-out;
+}
+
+.dead-alien {
+    height: 60px;
+    width: 70px;
+    position: relative;
+    opacity: 0;
+}
+
+.placar{
+    display: flex;
+    margin-bottom: 570px;
+    padding: 50px;
+}
+
+.score {
+    font-size: 20px;
+    color: white;
+}
+
+#score {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+.gameOver {
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    margin-right: 159px;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    position: absolute;
+    flex-direction: column;
+}
+
+button {
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+}
+
+button:hover {
+    color: gray;
+    font-size: 18px;
+}

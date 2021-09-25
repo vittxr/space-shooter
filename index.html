@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+    <head>
+        <meta chartset="utf-8">
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Shooter</title>
+    </head>
+
+    <body>
+        
+        <div id="main-container">
+           <img class="player" src="img/hero.png" alt="hero">
+
+        <h4 class="game-instructions">
+            Detenha a invasão!
+        </h4>
+        <div class="start-button">
+            <h1>START</h1>
+        </div>
+         
+        </div>
+        <div class=placar>
+            <p class="score"> Score: <p id="score"></p>
+        </div>
+        <div class="gameOver hidden" id="fim">
+            <p>Você Perdeu!</p>
+            <button onclick="playGame()">jogar novamente</button>
+        
+        </div>
+
+        
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
