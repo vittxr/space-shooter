@@ -1,0 +1,1 @@
+Olá! Esse é um projeto de jogo do curso da DIO. Ele é um jogo espacial simples, que envolve HTML, CSS e principalmente JavaScript. 
